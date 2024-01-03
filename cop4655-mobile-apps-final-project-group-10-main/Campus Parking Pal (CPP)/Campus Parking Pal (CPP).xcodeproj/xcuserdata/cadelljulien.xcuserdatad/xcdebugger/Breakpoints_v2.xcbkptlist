@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "50F67B61-CAE1-4C70-9E4B-32B5DBE66261"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A279B41-5F0B-4FE3-900C-257467EBF8C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Campus Parking Pal (CPP)/BuildingsViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "BuildingsViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7A279B41-5F0B-4FE3-900C-257467EBF8C9 - 58482d1ebfa7f496"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.buildingNameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "7A279B41-5F0B-4FE3-900C-257467EBF8C9 - c3fba144e8b0cf4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.buildingNameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "7A279B41-5F0B-4FE3-900C-257467EBF8C9 - acacdf46b53e854a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.buildingNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7A279B41-5F0B-4FE3-900C-257467EBF8C9 - b84514930f501aa5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.buildingNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "7A279B41-5F0B-4FE3-900C-257467EBF8C9 - 7ea1ffef0000a07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Campus_Parking_Pal__CPP_.BuildingsViewCell"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "7A279B41-5F0B-4FE3-900C-257467EBF8C9 - 70deed1278a16ad5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Campus_Parking_Pal__CPP_.BuildingsViewCell&gt;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "865B4803-EAC7-4528-8AAD-1659376DC263"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Campus Parking Pal (CPP)/BuildingsViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "BuildingsViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "865B4803-EAC7-4528-8AAD-1659376DC263 - 58482d1ebfa7f496"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.buildingNameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "865B4803-EAC7-4528-8AAD-1659376DC263 - c3fba144e8b0cf4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.buildingNameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "865B4803-EAC7-4528-8AAD-1659376DC263 - acacdf46b53e854a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.buildingNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "865B4803-EAC7-4528-8AAD-1659376DC263 - b84514930f501aa5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.buildingNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "865B4803-EAC7-4528-8AAD-1659376DC263 - 7ea1ffef0000a07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Campus_Parking_Pal__CPP_.BuildingsViewCell"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "865B4803-EAC7-4528-8AAD-1659376DC263 - 70deed1278a16ad5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Campus_Parking_Pal__CPP_.BuildingsViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Campus_Parking_Pal__CPP_.BuildingsViewCell&gt;"
+                  moduleName = "Campus Parking Pal (CPP)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cadelljulien/Desktop/COP4655/Finial/cop4655-final-project-group-10/Campus%20Parking%20Pal%20(CPP)/Campus%20Parking%20Pal%20(CPP)/BuildingsViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95F17C402B113B3000F23D13 /* Buildings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F17C3F2B113B3000F23D13 /* Buildings.swift */; };
+		D40E0D692B1D6900001EA8EE /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E0D682B1D6900001EA8EE /* ProfilePageViewController.swift */; };
+		D40E0D6B2B1D691B001EA8EE /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E0D6A2B1D691B001EA8EE /* PhotoViewController.swift */; };
+		D40E0D6D2B1D6934001EA8EE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E0D6C2B1D6934001EA8EE /* Profile.swift */; };
+		D40E0D712B1D69E8001EA8EE /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E0D702B1D69E8001EA8EE /* ProfileTableViewCell.swift */; };
+		D40E0D752B1D6B32001EA8EE /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = D40E0D742B1D6B32001EA8EE /* AlamofireImage */; };
+		D40E0D782B1D7450001EA8EE /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E0D772B1D7450001EA8EE /* MainTabBar.swift */; };
+		D40E0D7F2B1D7DB2001EA8EE /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E0D7E2B1D7DB2001EA8EE /* WeatherTableViewCell.swift */; };
+		D452A41B2B157A0C0050CA18 /* BuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D452A41A2B157A0C0050CA18 /* BuildingViewController.swift */; };
+		D46100122B182E9300E86633 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46100112B182E9300E86633 /* ScheduleViewController.swift */; };
+		D46100142B182EFD00E86633 /* CreateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46100132B182EFD00E86633 /* CreateCell.swift */; };
+		D46997542B1FDD69001D09C0 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D46997532B1FDD69001D09C0 /* WeatherTableViewCell.xib */; };
+		D469975A2B1FE3C3001D09C0 /* HourlyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D46997592B1FE3C3001D09C0 /* HourlyTableViewCell.xib */; };
+		D469975E2B1FE4CB001D09C0 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469975D2B1FE4CB001D09C0 /* WeatherViewController.swift */; };
+		D46997622B1FE542001D09C0 /* HourlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46997612B1FE542001D09C0 /* HourlyTableViewCell.swift */; };
+		D46D75A92B15080F0097E853 /* BuildingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D75A82B15080F0097E853 /* BuildingCell.swift */; };
+		D47503F22B105A0200E7EB1D /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47503F12B105A0200E7EB1D /* CreateViewController.swift */; };
+		D47503F42B10628000E7EB1D /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47503F32B10627F00E7EB1D /* Create.swift */; };
+		D4BACC2A2B1D280A00F29834 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BACC292B1D280A00F29834 /* DetailViewController.swift */; };
+		E9D2E8E92B0160B2000CB089 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9D2E8E82B0160B2000CB089 /* ParseSwift */; };
+		E9D2E8EC2B0166BD000CB089 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2E8EB2B0166BD000CB089 /* User.swift */; };
+		E9D2E8EF2B016868000CB089 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2E8EE2B016868000CB089 /* RegisterViewController.swift */; };
+		E9D2E8F12B017C4E000CB089 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D2E8F02B017C4E000CB089 /* LoginViewController.swift */; };
+		E9D463E52AFB1172003D95D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D463E42AFB1172003D95D0 /* AppDelegate.swift */; };
+		E9D463E72AFB1172003D95D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D463E62AFB1172003D95D0 /* SceneDelegate.swift */; };
+		E9D463E92AFB1172003D95D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D463E82AFB1172003D95D0 /* ViewController.swift */; };
+		E9D463EC2AFB1172003D95D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D463EA2AFB1172003D95D0 /* Main.storyboard */; };
+		E9D463EE2AFB1173003D95D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D463ED2AFB1173003D95D0 /* Assets.xcassets */; };
+		E9D463F12AFB1173003D95D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D463EF2AFB1173003D95D0 /* LaunchScreen.storyboard */; };
+		E9D463FC2AFB1173003D95D0 /* Campus_Parking_Pal__CPP_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D463FB2AFB1173003D95D0 /* Campus_Parking_Pal__CPP_Tests.swift */; };
+		E9D464062AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D464052AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITests.swift */; };
+		E9D464082AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D464072AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D463F82AFB1173003D95D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D463D92AFB1172003D95D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D463E02AFB1172003D95D0;
+			remoteInfo = "Campus Parking Pal (CPP)";
+		};
+		E9D464022AFB1173003D95D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D463D92AFB1172003D95D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D463E02AFB1172003D95D0;
+			remoteInfo = "Campus Parking Pal (CPP)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95F17C3F2B113B3000F23D13 /* Buildings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buildings.swift; sourceTree = "<group>"; };
+		D40E0D682B1D6900001EA8EE /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		D40E0D6A2B1D691B001EA8EE /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		D40E0D6C2B1D6934001EA8EE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D40E0D702B1D69E8001EA8EE /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		D40E0D772B1D7450001EA8EE /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		D40E0D7E2B1D7DB2001EA8EE /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		D452A41A2B157A0C0050CA18 /* BuildingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingViewController.swift; sourceTree = "<group>"; };
+		D46100112B182E9300E86633 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		D46100132B182EFD00E86633 /* CreateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCell.swift; sourceTree = "<group>"; };
+		D46997532B1FDD69001D09C0 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		D46997592B1FE3C3001D09C0 /* HourlyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HourlyTableViewCell.xib; sourceTree = "<group>"; };
+		D469975D2B1FE4CB001D09C0 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		D46997612B1FE542001D09C0 /* HourlyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyTableViewCell.swift; sourceTree = "<group>"; };
+		D46D75A82B15080F0097E853 /* BuildingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingCell.swift; sourceTree = "<group>"; };
+		D47503F12B105A0200E7EB1D /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		D47503F32B10627F00E7EB1D /* Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		D4BACC292B1D280A00F29834 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E9D2E8EB2B0166BD000CB089 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E9D2E8EE2B016868000CB089 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E9D2E8F02B017C4E000CB089 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E9D463E12AFB1172003D95D0 /* Campus Parking Pal (CPP).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campus Parking Pal (CPP).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D463E42AFB1172003D95D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9D463E62AFB1172003D95D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9D463E82AFB1172003D95D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9D463EB2AFB1172003D95D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D463ED2AFB1173003D95D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9D463F02AFB1173003D95D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9D463F22AFB1173003D95D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D463F72AFB1173003D95D0 /* Campus Parking Pal (CPP)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus Parking Pal (CPP)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D463FB2AFB1173003D95D0 /* Campus_Parking_Pal__CPP_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campus_Parking_Pal__CPP_Tests.swift; sourceTree = "<group>"; };
+		E9D464012AFB1173003D95D0 /* Campus Parking Pal (CPP)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Campus Parking Pal (CPP)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D464052AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campus_Parking_Pal__CPP_UITests.swift; sourceTree = "<group>"; };
+		E9D464072AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campus_Parking_Pal__CPP_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D463DE2AFB1172003D95D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D2E8E92B0160B2000CB089 /* ParseSwift in Frameworks */,
+				D40E0D752B1D6B32001EA8EE /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D463F42AFB1173003D95D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D463FE2AFB1173003D95D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40E0D672B1D68D8001EA8EE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D40E0D682B1D6900001EA8EE /* ProfilePageViewController.swift */,
+				D40E0D6A2B1D691B001EA8EE /* PhotoViewController.swift */,
+				D40E0D6C2B1D6934001EA8EE /* Profile.swift */,
+				D40E0D702B1D69E8001EA8EE /* ProfileTableViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D40E0D762B1D7418001EA8EE /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				D40E0D772B1D7450001EA8EE /* MainTabBar.swift */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
+		D40E0D792B1D7D1A001EA8EE /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				D40E0D7B2B1D7D3A001EA8EE /* HourlyCollectionCell */,
+				D40E0D7A2B1D7D2C001EA8EE /* WeatherCell */,
+				D469975D2B1FE4CB001D09C0 /* WeatherViewController.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		D40E0D7A2B1D7D2C001EA8EE /* WeatherCell */ = {
+			isa = PBXGroup;
+			children = (
+				D40E0D7E2B1D7DB2001EA8EE /* WeatherTableViewCell.swift */,
+				D46997532B1FDD69001D09C0 /* WeatherTableViewCell.xib */,
+			);
+			path = WeatherCell;
+			sourceTree = "<group>";
+		};
+		D40E0D7B2B1D7D3A001EA8EE /* HourlyCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				D46997612B1FE542001D09C0 /* HourlyTableViewCell.swift */,
+				D46997592B1FE3C3001D09C0 /* HourlyTableViewCell.xib */,
+			);
+			path = HourlyCollectionCell;
+			sourceTree = "<group>";
+		};
+		D461000E2B182DF600E86633 /* Schedule View */ = {
+			isa = PBXGroup;
+			children = (
+				D46100112B182E9300E86633 /* ScheduleViewController.swift */,
+				D46100132B182EFD00E86633 /* CreateCell.swift */,
+			);
+			path = "Schedule View";
+			sourceTree = "<group>";
+		};
+		D469A0882B1998CC00B1A666 /* Building and Lot View */ = {
+			isa = PBXGroup;
+			children = (
+				D452A41A2B157A0C0050CA18 /* BuildingViewController.swift */,
+				D46D75A82B15080F0097E853 /* BuildingCell.swift */,
+				D4BACC292B1D280A00F29834 /* DetailViewController.swift */,
+			);
+			path = "Building and Lot View";
+			sourceTree = "<group>";
+		};
+		D47503F02B1059E000E7EB1D /* Create Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				D47503F12B105A0200E7EB1D /* CreateViewController.swift */,
+			);
+			path = "Create Schedule";
+			sourceTree = "<group>";
+		};
+		E9D2E8EA2B016667000CB089 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2E8EB2B0166BD000CB089 /* User.swift */,
+				D47503F32B10627F00E7EB1D /* Create.swift */,
+				95F17C3F2B113B3000F23D13 /* Buildings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9D2E8ED2B0167F1000CB089 /* Register+Login */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2E8EE2B016868000CB089 /* RegisterViewController.swift */,
+				E9D2E8F02B017C4E000CB089 /* LoginViewController.swift */,
+			);
+			path = "Register+Login";
+			sourceTree = "<group>";
+		};
+		E9D463D82AFB1172003D95D0 = {
+			isa = PBXGroup;
+			children = (
+				E9D463E32AFB1172003D95D0 /* Campus Parking Pal (CPP) */,
+				E9D463FA2AFB1173003D95D0 /* Campus Parking Pal (CPP)Tests */,
+				E9D464042AFB1173003D95D0 /* Campus Parking Pal (CPP)UITests */,
+				E9D463E22AFB1172003D95D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D463E22AFB1172003D95D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D463E12AFB1172003D95D0 /* Campus Parking Pal (CPP).app */,
+				E9D463F72AFB1173003D95D0 /* Campus Parking Pal (CPP)Tests.xctest */,
+				E9D464012AFB1173003D95D0 /* Campus Parking Pal (CPP)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D463E32AFB1172003D95D0 /* Campus Parking Pal (CPP) */ = {
+			isa = PBXGroup;
+			children = (
+				D40E0D792B1D7D1A001EA8EE /* Weather */,
+				D40E0D762B1D7418001EA8EE /* Main Page */,
+				D40E0D672B1D68D8001EA8EE /* Profile */,
+				D461000E2B182DF600E86633 /* Schedule View */,
+				D47503F02B1059E000E7EB1D /* Create Schedule */,
+				E9D2E8ED2B0167F1000CB089 /* Register+Login */,
+				E9D2E8EA2B016667000CB089 /* Models */,
+				D469A0882B1998CC00B1A666 /* Building and Lot View */,
+				E9D463E42AFB1172003D95D0 /* AppDelegate.swift */,
+				E9D463E62AFB1172003D95D0 /* SceneDelegate.swift */,
+				E9D463E82AFB1172003D95D0 /* ViewController.swift */,
+				E9D463EA2AFB1172003D95D0 /* Main.storyboard */,
+				E9D463ED2AFB1173003D95D0 /* Assets.xcassets */,
+				E9D463EF2AFB1173003D95D0 /* LaunchScreen.storyboard */,
+				E9D463F22AFB1173003D95D0 /* Info.plist */,
+			);
+			path = "Campus Parking Pal (CPP)";
+			sourceTree = "<group>";
+		};
+		E9D463FA2AFB1173003D95D0 /* Campus Parking Pal (CPP)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D463FB2AFB1173003D95D0 /* Campus_Parking_Pal__CPP_Tests.swift */,
+			);
+			path = "Campus Parking Pal (CPP)Tests";
+			sourceTree = "<group>";
+		};
+		E9D464042AFB1173003D95D0 /* Campus Parking Pal (CPP)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D464072AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITestsLaunchTests.swift */,
+				E9D464052AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITests.swift */,
+			);
+			path = "Campus Parking Pal (CPP)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D463E02AFB1172003D95D0 /* Campus Parking Pal (CPP) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D4640B2AFB1173003D95D0 /* Build configuration list for PBXNativeTarget "Campus Parking Pal (CPP)" */;
+			buildPhases = (
+				E9D463DD2AFB1172003D95D0 /* Sources */,
+				E9D463DE2AFB1172003D95D0 /* Frameworks */,
+				E9D463DF2AFB1172003D95D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Campus Parking Pal (CPP)";
+			packageProductDependencies = (
+				E9D2E8E82B0160B2000CB089 /* ParseSwift */,
+				D40E0D742B1D6B32001EA8EE /* AlamofireImage */,
+			);
+			productName = "Campus Parking Pal (CPP)";
+			productReference = E9D463E12AFB1172003D95D0 /* Campus Parking Pal (CPP).app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9D463F62AFB1173003D95D0 /* Campus Parking Pal (CPP)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D4640E2AFB1173003D95D0 /* Build configuration list for PBXNativeTarget "Campus Parking Pal (CPP)Tests" */;
+			buildPhases = (
+				E9D463F32AFB1173003D95D0 /* Sources */,
+				E9D463F42AFB1173003D95D0 /* Frameworks */,
+				E9D463F52AFB1173003D95D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D463F92AFB1173003D95D0 /* PBXTargetDependency */,
+			);
+			name = "Campus Parking Pal (CPP)Tests";
+			productName = "Campus Parking Pal (CPP)Tests";
+			productReference = E9D463F72AFB1173003D95D0 /* Campus Parking Pal (CPP)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9D464002AFB1173003D95D0 /* Campus Parking Pal (CPP)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D464112AFB1173003D95D0 /* Build configuration list for PBXNativeTarget "Campus Parking Pal (CPP)UITests" */;
+			buildPhases = (
+				E9D463FD2AFB1173003D95D0 /* Sources */,
+				E9D463FE2AFB1173003D95D0 /* Frameworks */,
+				E9D463FF2AFB1173003D95D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D464032AFB1173003D95D0 /* PBXTargetDependency */,
+			);
+			name = "Campus Parking Pal (CPP)UITests";
+			productName = "Campus Parking Pal (CPP)UITests";
+			productReference = E9D464012AFB1173003D95D0 /* Campus Parking Pal (CPP)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D463D92AFB1172003D95D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E9D463E02AFB1172003D95D0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E9D463F62AFB1173003D95D0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E9D463E02AFB1172003D95D0;
+					};
+					E9D464002AFB1173003D95D0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E9D463E02AFB1172003D95D0;
+					};
+				};
+			};
+			buildConfigurationList = E9D463DC2AFB1172003D95D0 /* Build configuration list for PBXProject "Campus Parking Pal (CPP)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9D463D82AFB1172003D95D0;
+			packageReferences = (
+				E9D2E8E72B0160B2000CB089 /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				D47146332B13D4360037B44B /* XCRemoteSwiftPackageReference "Nuke" */,
+				D40E0D722B1D6B17001EA8EE /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D40E0D732B1D6B32001EA8EE /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
+			productRefGroup = E9D463E22AFB1172003D95D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D463E02AFB1172003D95D0 /* Campus Parking Pal (CPP) */,
+				E9D463F62AFB1173003D95D0 /* Campus Parking Pal (CPP)Tests */,
+				E9D464002AFB1173003D95D0 /* Campus Parking Pal (CPP)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D463DF2AFB1172003D95D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D469975A2B1FE3C3001D09C0 /* HourlyTableViewCell.xib in Resources */,
+				E9D463F12AFB1173003D95D0 /* LaunchScreen.storyboard in Resources */,
+				E9D463EE2AFB1173003D95D0 /* Assets.xcassets in Resources */,
+				D46997542B1FDD69001D09C0 /* WeatherTableViewCell.xib in Resources */,
+				E9D463EC2AFB1172003D95D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D463F52AFB1173003D95D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D463FF2AFB1173003D95D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D463DD2AFB1172003D95D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40E0D6D2B1D6934001EA8EE /* Profile.swift in Sources */,
+				D46100142B182EFD00E86633 /* CreateCell.swift in Sources */,
+				D40E0D782B1D7450001EA8EE /* MainTabBar.swift in Sources */,
+				E9D2E8F12B017C4E000CB089 /* LoginViewController.swift in Sources */,
+				D40E0D712B1D69E8001EA8EE /* ProfileTableViewCell.swift in Sources */,
+				E9D2E8EC2B0166BD000CB089 /* User.swift in Sources */,
+				D46997622B1FE542001D09C0 /* HourlyTableViewCell.swift in Sources */,
+				D47503F22B105A0200E7EB1D /* CreateViewController.swift in Sources */,
+				D46D75A92B15080F0097E853 /* BuildingCell.swift in Sources */,
+				D47503F42B10628000E7EB1D /* Create.swift in Sources */,
+				D452A41B2B157A0C0050CA18 /* BuildingViewController.swift in Sources */,
+				95F17C402B113B3000F23D13 /* Buildings.swift in Sources */,
+				D40E0D7F2B1D7DB2001EA8EE /* WeatherTableViewCell.swift in Sources */,
+				D469975E2B1FE4CB001D09C0 /* WeatherViewController.swift in Sources */,
+				E9D2E8EF2B016868000CB089 /* RegisterViewController.swift in Sources */,
+				E9D463E92AFB1172003D95D0 /* ViewController.swift in Sources */,
+				D40E0D692B1D6900001EA8EE /* ProfilePageViewController.swift in Sources */,
+				E9D463E52AFB1172003D95D0 /* AppDelegate.swift in Sources */,
+				D46100122B182E9300E86633 /* ScheduleViewController.swift in Sources */,
+				D40E0D6B2B1D691B001EA8EE /* PhotoViewController.swift in Sources */,
+				E9D463E72AFB1172003D95D0 /* SceneDelegate.swift in Sources */,
+				D4BACC2A2B1D280A00F29834 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D463F32AFB1173003D95D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D463FC2AFB1173003D95D0 /* Campus_Parking_Pal__CPP_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D463FD2AFB1173003D95D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D464082AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITestsLaunchTests.swift in Sources */,
+				E9D464062AFB1173003D95D0 /* Campus_Parking_Pal__CPP_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D463F92AFB1173003D95D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D463E02AFB1172003D95D0 /* Campus Parking Pal (CPP) */;
+			targetProxy = E9D463F82AFB1173003D95D0 /* PBXContainerItemProxy */;
+		};
+		E9D464032AFB1173003D95D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D463E02AFB1172003D95D0 /* Campus Parking Pal (CPP) */;
+			targetProxy = E9D464022AFB1173003D95D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9D463EA2AFB1172003D95D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D463EB2AFB1172003D95D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D463EF2AFB1173003D95D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D463F02AFB1173003D95D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D464092AFB1173003D95D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9D4640A2AFB1173003D95D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D4640C2AFB1173003D95D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Campus Parking Pal (CPP)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DienTran.Campus-Parking-Pal--CPP-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9D4640D2AFB1173003D95D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Campus Parking Pal (CPP)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DienTran.Campus-Parking-Pal--CPP-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9D4640F2AFB1173003D95D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DienTran.Campus-Parking-Pal--CPP-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campus Parking Pal (CPP).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Campus Parking Pal (CPP)";
+			};
+			name = Debug;
+		};
+		E9D464102AFB1173003D95D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DienTran.Campus-Parking-Pal--CPP-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campus Parking Pal (CPP).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Campus Parking Pal (CPP)";
+			};
+			name = Release;
+		};
+		E9D464122AFB1173003D95D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DienTran.Campus-Parking-Pal--CPP-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Campus Parking Pal (CPP)";
+			};
+			name = Debug;
+		};
+		E9D464132AFB1173003D95D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DienTran.Campus-Parking-Pal--CPP-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Campus Parking Pal (CPP)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D463DC2AFB1172003D95D0 /* Build configuration list for PBXProject "Campus Parking Pal (CPP)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D464092AFB1173003D95D0 /* Debug */,
+				E9D4640A2AFB1173003D95D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D4640B2AFB1173003D95D0 /* Build configuration list for PBXNativeTarget "Campus Parking Pal (CPP)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D4640C2AFB1173003D95D0 /* Debug */,
+				E9D4640D2AFB1173003D95D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D4640E2AFB1173003D95D0 /* Build configuration list for PBXNativeTarget "Campus Parking Pal (CPP)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D4640F2AFB1173003D95D0 /* Debug */,
+				E9D464102AFB1173003D95D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D464112AFB1173003D95D0 /* Build configuration list for PBXNativeTarget "Campus Parking Pal (CPP)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D464122AFB1173003D95D0 /* Debug */,
+				E9D464132AFB1173003D95D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D40E0D722B1D6B17001EA8EE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		D40E0D732B1D6B32001EA8EE /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+		D47146332B13D4360037B44B /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+		E9D2E8E72B0160B2000CB089 /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.14.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D40E0D742B1D6B32001EA8EE /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D40E0D732B1D6B32001EA8EE /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		E9D2E8E82B0160B2000CB089 /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9D2E8E72B0160B2000CB089 /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E9D463D92AFB1172003D95D0 /* Project object */;
+}
